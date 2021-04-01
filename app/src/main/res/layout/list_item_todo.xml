@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4sp">
+        
+        <TextView
+            android:id="@+id/list_item_tv_title"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:padding="2sp"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list_item_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:width="20dp"
+            android:padding="2sp"
+            android:text="TextView"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/list_item_discription"
+            android:layout_width="317dp"
+            android:layout_height="30dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="0sp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/status_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
