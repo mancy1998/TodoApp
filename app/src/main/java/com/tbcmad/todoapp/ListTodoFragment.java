@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -76,6 +77,7 @@ public class ListTodoFragment extends Fragment {
 
     private class TodoHolder extends RecyclerView.ViewHolder{
         TextView title, date, description,status;
+        Button deleteTask;
 
         public TodoHolder(LayoutInflater inflater, ViewGroup parent){
             super(inflater.inflate(R.layout.list_item_todo, parent, false));
@@ -83,6 +85,14 @@ public class ListTodoFragment extends Fragment {
             date = itemView.findViewById(R.id.list_item_tv_date);
             description = itemView.findViewById(R.id.list_item_discription);
             status = itemView.findViewById(R.id.status_id);
+            deleteTask = itemView.findViewById(R.id.deleteTask);
+
+            deleteTask.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    deleteTask();
+                }
+            });
 
             title.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -109,6 +119,14 @@ public class ListTodoFragment extends Fragment {
                 }
             });
 
+        }
+
+        void deleteTask(){
+            TodoAdaptor adaptor = new TodoAdaptor(viewModel.getAllTodos().getValue());
+            int i = getAdapterPosition();
+            ETodo todo = adaptor.getTodoAt(i);
+            viewModel.deleteById(todo);
+            adaptor.notifyDataSetChanged();
         }
 
         void loadUpdateItem(){

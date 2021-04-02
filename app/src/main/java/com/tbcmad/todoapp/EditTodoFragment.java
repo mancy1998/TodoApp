@@ -59,10 +59,7 @@ public class    EditTodoFragment extends Fragment {
         chComplete = rootView.findViewById(R.id.edit_fragment_chk_complete);
         btnSave = rootView.findViewById(R.id.edit_fragment_btn_save);
         btnCancel = rootView.findViewById(R.id.edit_fragment_btn_cancel);
-
         loadUpdateData();
-
-
 
 
 

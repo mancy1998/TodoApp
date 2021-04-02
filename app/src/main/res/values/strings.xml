@@ -14,7 +14,7 @@
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="welcome">Welcome to Todo App</string>
-    <string name="login_title">Enter your Credential</string>
+    <string name="login_title">Enter personal Credential</string>
     <string name="user_name">Username</string>
     <string name="password">Password</string>
     <string name="btn_login">Login</string>

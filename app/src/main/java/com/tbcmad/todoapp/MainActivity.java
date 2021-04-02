@@ -19,6 +19,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.tbcmad.todoapp.data.TodoDAO;
 import com.tbcmad.todoapp.data.TodoRepository;
 import com.tbcmad.todoapp.model.ETodo;
+import com.tbcmad.todoapp.viewModel.TodoViewModel;
 
 import java.util.Date;
 import java.util.List;
@@ -60,11 +61,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.mnu_delete_all:
+                TodoViewModel.deleteAll();
                 Toast.makeText(getApplicationContext(),"Delete all", Toast.LENGTH_LONG).show();
+
                 break;
-                case R.id.mnu_delete_cpmpleted:
-                    Toast.makeText(getApplicationContext(),"Delete Completed", Toast.LENGTH_LONG).show();
-                    break;
             case R.id.mnu_logout:
                 SharedPreferences preferences = getApplicationContext().getSharedPreferences("todo_pref", 0);
                 SharedPreferences.Editor editor = preferences.edit();

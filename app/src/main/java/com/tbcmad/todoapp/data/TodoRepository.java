@@ -44,6 +44,10 @@ public class TodoRepository {
         new deleteTodoAysncTask(mTodoDAO).execute(eTodo);
     }
 
+    public void deleteAll(){
+        new deleteAllTodoAysncTask(mTodoDAO).execute();
+    }
+
     public ETodo getTodoById(int id){
         return  mTodoDAO.getTodoById(id);
     }

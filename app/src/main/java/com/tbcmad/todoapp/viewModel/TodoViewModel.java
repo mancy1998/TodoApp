@@ -12,7 +12,7 @@ import com.tbcmad.todoapp.model.ETodo;
 import java.util.List;
 
 public class TodoViewModel extends AndroidViewModel {
-    private TodoRepository mTodoRepository;
+    private static TodoRepository mTodoRepository;
     private LiveData<List<ETodo>> allTodos;
     public TodoViewModel(@NonNull Application application){
         super(application);
@@ -32,7 +32,7 @@ public class TodoViewModel extends AndroidViewModel {
         mTodoRepository.delete(todo);
     }
 
-    public void deleteAll(ETodo todo){mTodoRepository.delete(todo);}
+    public  static void deleteAll(){mTodoRepository.deleteAll();}
 
     public ETodo getTodoById(int id) {
         return mTodoRepository.getTodoById(id);

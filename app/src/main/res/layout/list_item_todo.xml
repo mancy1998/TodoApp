@@ -40,8 +40,8 @@
 
         <TextView
             android:id="@+id/list_item_discription"
-            android:layout_width="317dp"
-            android:layout_height="30dp"
+            android:layout_width="165dp"
+            android:layout_height="36dp"
             android:paddingLeft="20sp"
             android:paddingRight="0sp"
             android:text="TextView"
@@ -50,11 +50,17 @@
 
         <TextView
             android:id="@+id/status_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="36dp"
             android:layout_weight="1"
             android:text="TextView" />
 
+        <Button
+            android:id="@+id/deleteTask"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
 
 
     </LinearLayout>
