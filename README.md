@@ -4,10 +4,21 @@
 ######Features of the App<br>
 
 1.Enhanced splash screen<br>
-2.User Login <br>
+![](app/src/main/res/drawable/screen.jpg)
+
+2.User Login<br>
+![](app/src/main/res/drawable/login.gif)
+
 3.Add task where user can add tasks and save<br>
+![](app/src/main/res/drawable/addtasks.gif)
+
 4.Notification sent when user adds a tasks<br>
-5.User can Edit/Update exisiting Tasks by double clicking the particular task and modifying it <br>
+![](app/src/main/res/drawable/notification.gif)
+
+5.Proper validation<br>
+![](app/src/main/res/drawable/propervalidation.gif)
+
+6.User can Edit/Update exisiting Tasks by double clicking the particular task and modifying it <br>
 6. Straight away the user can click cancel in order to not updating.  
 6.User can click delete option to delete particular Task<br>
 7.Delete all task where user can delete all tasks from the right top menu option.<br>
