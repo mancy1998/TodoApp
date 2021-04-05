@@ -1,9 +1,9 @@
 
-<b>Final Todo App</b><br>
+<b><center>Final Todo App</center></b><br>
 
 ![](app/src/main/res/drawable/todoapp.gif)
 
-<center><b>Features of the App</b></center><br>
+<b><center>Features of the App</center></b><br>
 
 <b>1.Enhanced splash screen</b><br>
 
