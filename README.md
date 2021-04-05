@@ -47,7 +47,7 @@
 
 
 
-######Installation and User Guide<br>
+<b>Installation and User Guide</b><br>
 
 1.Install the app and run the app<br>
 2.Login using your username and password<br>
@@ -59,12 +59,12 @@
 8. Go to option and click delete all to delete all task.<br>
 9. Go to option >> logout to log out from the app.<br>
 ---
-##Design Architecture
+<b>Design Architecture</b><br>
 ---
 * `Model`  <br>
 * `View`  <br>
 * `ViewModel`  <br>
 ---
 
-##Databse Used
+<b>Databse Used</b><br>
 * `Model`
