@@ -1,47 +1,47 @@
 
-Final Todo App<br>
+<b>Final Todo App</b><br>
 
 ![](app/src/main/res/drawable/todoapp.gif)
 
-######Features of the App<br>
+<center><b>Features of the App</b></center><br>
 
-1.Enhanced splash screen<br>
+<b>1.Enhanced splash screen</b><br>
 
 ![](app/src/main/res/drawable/screen.jpg)
 
-2.User Login<br>
+<b>2.User Login</b><br>
 
 ![](app/src/main/res/drawable/login.gif)
 
-3.Add task where user can add tasks and save<br>
+<b>3.Add task where user can add tasks and save</b><br>
 
 ![](app/src/main/res/drawable/addtasks.gif)
 
-4.Notification sent when user adds a tasks<br>
+<b>4.Notification sent when user adds a tasks</b><br>
 
 ![](app/src/main/res/drawable/notification.gif)
 
-5.Proper validation<br>
+<b>5.Proper validation</b><br>
 
 ![](app/src/main/res/drawable/propervalidation.gif)
 
-6.User can Edit/Update exisiting Tasks by double clicking the particular task and modifying it <br>
+<b>6.User can Edit/Update exisiting Tasks by double clicking the particular task and modifying it</b><br>
 
 ![](app/src/main/res/drawable/update.gif)
 
-7.Straight away the user can click cancel in order to not updating. 
+<b>7.Straight away the user can click cancel in order to not updating</b><br> 
 
 ![](app/src/main/res/drawable/cancel.gif)
 
-8.User can click delete option to delete particular Task<br>
+<b>8.User can click delete option to delete particular Task</b><br>
 
 ![](app/src/main/res/drawable/delete.gif)
 
-9.Delete all task where user can delete all tasks from the right top menu option.<br>
+<b>9.Delete all task where user can delete all tasks from the right top menu option</b><br>
 
 ![](app/src/main/res/drawable/deleteall.gif)
 
-10.User can logout by clicking the logout option from the right top menu.<br>
+<b>10.User can logout by clicking the logout option from the right top menu</b><br>
 
 ![](app/src/main/res/drawable/logout.gif)
 
