@@ -53,17 +53,19 @@
 2.Login using your username and password<br>
 3.Click on floating action button to add new tasks<br>
 4. You can see the list of task your have added on the screen.<br>
-5. To update click on the task and edit the information and press update button.<br>
-6. You can cancel by clicking cancel button in case you dont feel like updating.<br>
-7. Click delete option to delete a particular task<br>
-8. Go to option and click delete all to delete all task.<br>
-9. Go to option >> logout to log out from the app.<br>
+5. In case you leave any empty boxes, it will show error as it's has proper validation.<br>
+6. To update click on the task and edit the information and press update button.<br>
+7. You can cancel by clicking cancel button in case you dont feel like updating.<br>
+8. Click delete option to delete a particular task<br>
+9. Go to option and click delete all to delete all task.<br>
+10. Go to option >> logout to log out from the app.<br>
 ---
 <b>DESIGN ARCHITECTURE</b><br>
 ---
 * `Model`  <br>
 * `View`  <br>
 * `ViewModel`  <br>
+
 ---
 <b>DATABASE USED</b><br>
 * `Model`
