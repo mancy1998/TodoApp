@@ -1,9 +1,9 @@
 
-<b><center>Final Todo App</center></b><br>
+<b><center>FINAL TODO APP</center></b><br>
 
 ![](app/src/main/res/drawable/todoapp.gif)
 
-<b><center>Features of the App</center></b><br>
+<b><center>FEATURES OF THE APP</center></b><br>
 
 <b>1.Enhanced splash screen</b><br>
 
@@ -47,7 +47,7 @@
 
 
 
-<b>Installation and User Guide</b><br>
+<b>INSTALLATION AND USER GUIDE</b><br>
 
 1.Install the app and run the app<br>
 2.Login using your username and password<br>
@@ -59,12 +59,11 @@
 8. Go to option and click delete all to delete all task.<br>
 9. Go to option >> logout to log out from the app.<br>
 ---
-<b>Design Architecture</b><br>
+<b>DESIGN ARCHITECTURE</b><br>
 ---
 * `Model`  <br>
 * `View`  <br>
 * `ViewModel`  <br>
 ---
-
-<b>Databse Used</b><br>
+<b>DATABASE USED</b><br>
 * `Model`
