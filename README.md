@@ -1,28 +1,50 @@
 
+Final Todo App<br>
+
 ![](app/src/main/res/drawable/todoapp.gif)
 
 ######Features of the App<br>
 
 1.Enhanced splash screen<br>
+
 ![](app/src/main/res/drawable/screen.jpg)
 
 2.User Login<br>
+
 ![](app/src/main/res/drawable/login.gif)
 
 3.Add task where user can add tasks and save<br>
+
 ![](app/src/main/res/drawable/addtasks.gif)
 
 4.Notification sent when user adds a tasks<br>
+
 ![](app/src/main/res/drawable/notification.gif)
 
 5.Proper validation<br>
+
 ![](app/src/main/res/drawable/propervalidation.gif)
 
 6.User can Edit/Update exisiting Tasks by double clicking the particular task and modifying it <br>
-6. Straight away the user can click cancel in order to not updating.  
-6.User can click delete option to delete particular Task<br>
-7.Delete all task where user can delete all tasks from the right top menu option.<br>
-8.User can logout by clicking the logout option from the right top menu.
+
+![](app/src/main/res/drawable/update.gif)
+
+7.Straight away the user can click cancel in order to not updating. 
+
+![](app/src/main/res/drawable/cancel.gif)
+
+8.User can click delete option to delete particular Task<br>
+
+![](app/src/main/res/drawable/delete.gif)
+
+9.Delete all task where user can delete all tasks from the right top menu option.<br>
+
+![](app/src/main/res/drawable/deleteall.gif)
+
+10.User can logout by clicking the logout option from the right top menu.<br>
+
+![](app/src/main/res/drawable/logout.gif)
+
 
 
 ######Installation and User Guide<br>
